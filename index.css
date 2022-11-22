@@ -1,0 +1,3307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    width: 100%;
+    height: 150vh;
+    background: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    /* top: 0px;
+    left: 0px; */
+    overflow: hidden;
+}
+
+.titlenav {
+    width: 100%;
+    height: 30vh;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    margin: 1px;
+    opacity: 1;
+    /* position: relative; */
+    /* top: 0px; */
+    /* left: 0px; */
+    overflow: hidden;
+}
+
+.title {
+    width: 100%;
+    height: 55vh;
+    opacity: 1;
+    position: relative;
+    margin: 50px;
+    /* top: 32px;
+    left: 50px; */
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.mainicon {
+    width: 60px;
+    height: 60px;
+    background: url("../images/favicon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 12px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.mainhead {
+    width: 425px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 70px;
+    opacity: 1;
+    text-align: left;
+}
+
+.nav {
+    width: 50%;
+    /* height: 100vh; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-size: cover; */
+    margin: auto;
+    opacity: 1;
+    position: absolute;
+    top: 140px;
+    /* left: 50px; */
+    /* overflow: hidden; */
+    display: flex;
+    /* overflow: hidden; */
+    margin-left: 2rem;
+}
+
+.download {
+    width: 30%;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    /* top: 0px; */
+    /* left: 18px; */
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+}
+
+.howto {
+    width: 30%;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    /* top: 0px; */
+    /* left: 175px; */
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+}
+
+.lsdtoken {
+    width: 30%;
+    color: rgba(255, 255, 255, 1);
+    /* position: absolute; */
+    top: 0px;
+    /* left: 354px; */
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+}
+
+.contact {
+    width: 30%;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    /* top: 0px; */
+    /* left: 508px; */
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 35px;
+    opacity: 1;
+    text-align: center;
+}
+
+.engagetab {
+    width: 94%;
+    height: 737px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    top: auto;
+    left: auto;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    backdrop-filter: blur(25px);
+    overflow: hidden;
+}
+
+.engagetitle {
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    /* top: 20px; */
+    /* left: 401px; */
+    text-align: center;
+    margin-top: 14px;
+
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 35px;
+    opacity: 1;
+}
+
+.box3 {
+    width: 100%;
+    height: 404px;
+    opacity: 1;
+    position: relative;
+    /* top: 77px; */
+    display: flex;
+    /* left: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 1rem;
+}
+
+.hash {
+    width: 406px;
+    height: 384px;
+    background: rgba(41, 39, 39, 1);
+    opacity: 1;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+    overflow: hidden;
+    margin: 0.5rem;
+}
+
+.hashicon {
+    width: 70px;
+    height: 70px;
+    background: url("../images/mining.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 168px;
+    overflow: hidden;
+}
+
+.hashheading {
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 95px;
+    /* left: 126px; */
+    /* display: flex; */
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.hashdiscrip {
+    width: 376px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 135px;
+    left: 15px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.hashgenre {
+    width: 376px;
+    height: 92px;
+    padding: 10px 10px;
+    opacity: 1;
+    position: absolute;
+    top: 217px;
+    left: 15px;
+    overflow: hidden;
+}
+
+.hg1 {
+    width: 356px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.hg2 {
+    width: 356px;
+    color: rgba(36, 131, 45, 1);
+    position: absolute;
+    top: 34px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.hg3 {
+    width: 356px;
+    color: rgba(36, 131, 45, 1);
+    position: absolute;
+    top: 58px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.hashlearn {
+    width: 376px;
+    height: 50px;
+    background: rgba(73, 133, 79, 1);
+    margin: auto;
+    opacity: 1;
+    position: absolute;
+    top: 319px;
+    left: 15px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.learnmore1 {
+    width: 77px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    padding: 3px 0;
+    top: 13px;
+    left: 149px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.trading {
+    width: 406px;
+    height: 384px;
+    background: rgba(41, 39, 39, 1);
+    opacity: 1;
+    position: relative;
+    /* top: 10px; */
+    /* left: 426px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
+    overflow: hidden;
+    margin: 0.5rem;
+}
+
+.tradingicon {
+    width: 70px;
+    height: 70px;
+    background: url("../images/candlestick.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 168px;
+    overflow: hidden;
+}
+
+.tradingheading {
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 95px;
+    /* left: 126px; */
+    /* display: flex; */
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tradingdiscrip {
+    width: 376px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 135px;
+    left: 15px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tradinggenre {
+    width: 376px;
+    height: 92px;
+    padding: 10px 10px;
+    opacity: 1;
+    position: absolute;
+    top: 217px;
+    left: 15px;
+    overflow: hidden;
+}
+
+.tg1 {
+    width: 356px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tg2 {
+    width: 356px;
+    color: rgba(36, 131, 45, 1);
+    position: absolute;
+    top: 34px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tg3 {
+    width: 356px;
+    color: rgba(214, 186, 42, 1);
+    position: absolute;
+    top: 58px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tradinglearn {
+    width: 376px;
+    height: 50px;
+    background: rgba(73, 133, 79, 1);
+    margin: auto;
+    opacity: 1;
+    position: absolute;
+    top: 319px;
+    left: 15px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.learnmore2 {
+    width: 77px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    padding: 3px 0;
+    top: 13px;
+    left: 149px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tokenmania {
+    width: 406px;
+    height: 384px;
+    background: rgba(41, 40, 40, 1);
+    opacity: 1;
+    position: relative;
+    /* top: 10px;
+    left: 843px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    margin: 0.5rem;
+}
+
+.tokenicon {
+    width: 70px;
+    height: 70px;
+    background: url("../images/cryptocurrency.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 168px;
+    overflow: hidden;
+}
+
+.tokenmaniaheading {
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 95px;
+    /* left: 126px; */
+    /* display: flex; */
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tokenmaniadiscrip {
+    width: 376px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 135px;
+    left: 15px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tokenmaniagenre {
+    width: 376px;
+    height: 92px;
+    padding: 10px 10px;
+    opacity: 1;
+    position: absolute;
+    top: 217px;
+    left: 15px;
+    overflow: hidden;
+}
+
+.tog1 {
+    width: 356px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tog2 {
+    width: 356px;
+    color: rgba(36, 131, 45, 1);
+    position: absolute;
+    top: 34px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tog3 {
+    width: 356px;
+    color: rgba(214, 186, 42, 1);
+    position: absolute;
+    top: 58px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tokenlearn {
+    width: 376px;
+    height: 50px;
+    background: rgba(73, 133, 79, 1);
+    margin: auto;
+    opacity: 1;
+    align-self: center;
+    position: absolute;
+    top: 319px;
+    left: 15px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.learnmore3 {
+    width: 77px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    padding: 3px 0;
+    top: 13px;
+    left: 149px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.checkoutbsc {
+    width: 100%;
+    height: 42px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    /* top: 496px; */
+    text-align: center;
+    /* left: 395px; */
+    font-family: "Bebas Neue";
+    font-size: 35px;
+    opacity: 1;
+}
+
+.lsdtokentab {
+    width: 1260px;
+    height: 164px;
+    background: rgba(41, 39, 39, 1);
+    opacity: 1;
+    position: absolute;
+    top: 553px;
+    left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.lsdtokenicon {
+    width: 70px;
+    height: 70px;
+    background: url("../images/favicon.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 47px;
+    left: 30px;
+    overflow: hidden;
+}
+
+.lsdnameframe {
+    width: 920px;
+    height: 134px;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    overflow: hidden;
+}
+
+.lsdfullform {
+    width: 265px;
+    color: rgba(255, 255, 255, 1);
+    padding: 5px 0;
+    position: absolute;
+    top: 31px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 35px;
+    opacity: 1;
+    text-align: left;
+}
+
+.lsdinfo {
+    width: 449px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 73px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+
+.commingsoonbutton {
+    width: 200px;
+    height: 50px;
+    background: rgba(79, 80, 79, 1);
+    opacity: 1;
+    position: absolute;
+    top: 57px;
+    left: 1030px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.commingsoon {
+    width: 93px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    padding: 3px 0;
+    top: 13px;
+    left: 53px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.downloadsection {
+    width: 100%;
+    height: 1100px;
+    background: url("../images/curved.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.downloadtitletab {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.downloadtitle {
+    width: 604px;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 30px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+}
+
+.appmockup {
+    width: 300px;
+    height: 482px;
+    background: url("../images/iphone.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    top: 40px;
+    left: auto;
+    overflow: hidden;
+}
+
+.stilltab {
+    width: 1100px;
+    height: 478px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    backdrop-filter: blur(25px);
+    position: relative;
+    margin: auto;
+    top: 55px;
+    left: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.stillwaiting {
+    width: 680px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 15px;
+    left: 210px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.stilltabpart1 {
+    width: 920px;
+    height: 159px;
+    opacity: 1;
+    position: absolute;
+    top: 55px;
+    left: 90px;
+    overflow: hidden;
+}
+
+.easywith {
+    width: 300px;
+    height: 139px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.easywithicon {
+    width: 60px;
+    height: 60px;
+    background: url("../images/withdraw.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    overflow: hidden;
+}
+
+.easywithfonttab {
+    width: 280px;
+    height: 54px;
+    opacity: 1;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.easywithfont1 {
+    width: 143px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 68px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.easywithfont2 {
+    width: 171px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 54px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.nodeposit {
+    width: 300px;
+    height: 139px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 310px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.nodepositicon {
+    width: 60px;
+    height: 60px;
+    background: url("../images/no.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    overflow: hidden;
+}
+
+.nodepositfonttab {
+    width: 280px;
+    height: 54px;
+    opacity: 1;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.nodepositfont1 {
+    width: 127px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 76px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.nodepositfont2 {
+    width: 209px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.referral {
+    width: 300px;
+    height: 139px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 620px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.referralicon {
+    width: 60px;
+    height: 60px;
+    background: url("../images/gift.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    overflow: hidden;
+}
+
+.referralfonttab {
+    width: 280px;
+    height: 54px;
+    opacity: 1;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.referralfont1 {
+    width: 130px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.referralfont2 {
+    width: 255px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 12px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.stilltabpart2 {
+    width: 920px;
+    height: 159px;
+    opacity: 1;
+    position: absolute;
+    top: 224px;
+    left: 90px;
+    overflow: hidden;
+}
+
+.fixedlock {
+    width: 300px;
+    height: 139px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.fixedlockicon {
+    width: 60px;
+    height: 60px;
+    background: url("../images/stopwatch.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    overflow: hidden;
+}
+
+.fixedlockfonttab {
+    width: 280px;
+    height: 54px;
+    opacity: 1;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.fixedlockfont1 {
+    width: 126px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 77px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.fixedlockfont2 {
+    width: 175px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 52px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.instantdep {
+    width: 300px;
+    height: 139px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 310px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.instantdepicon {
+    width: 60px;
+    height: 60px;
+    background: url("../images/wallet.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    overflow: hidden;
+}
+
+.instantdepfonttab {
+    width: 280px;
+    height: 54px;
+    opacity: 1;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.instantdepfont1 {
+    width: 129px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.instantdepfont2 {
+    width: 243px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 18px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.multiplan {
+    width: 300px;
+    height: 139px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 620px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.multiplanicon {
+    width: 60px;
+    height: 60px;
+    background: url("../images/team.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    overflow: hidden;
+}
+
+.multiplanfonttab {
+    width: 280px;
+    height: 54px;
+    opacity: 1;
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.multiplanfont1 {
+    width: 197px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 41px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.multiplanfont2 {
+    width: 231px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 24px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.downloadbuttontab {
+    width: 530px;
+    height: 70px;
+    opacity: 1;
+    position: absolute;
+    top: 393px;
+    left: 285px;
+    overflow: hidden;
+}
+
+.androidbutton {
+    width: 250px;
+    height: 50px;
+    background: rgba(74, 134, 80, 1);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.androidicon {
+    width: 30px;
+    height: 30px;
+    background: url("../images/android.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 56px;
+    overflow: hidden;
+}
+
+.androidfont {
+    width: 98px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 13px;
+    left: 96px;
+    padding: 3px 0;
+    font-family: Bebas Neue;
+    font-weight: normal;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.applebutton {
+    width: 250px;
+    height: 50px;
+    background: rgba(79, 80, 79, 1);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.appleicon {
+    width: 30px;
+    height: 30px;
+    background: url("../images/apple.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 58px;
+    overflow: hidden;
+}
+
+.applefont {
+    width: 98px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 13px;
+    left: 96px;
+    padding: 3px 0;
+    font-family: Bebas Neue;
+    font-weight: normal;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.downloadvideo {
+    width: 100%;
+    height: 650px;
+    background: url("../images/curved.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.videotitletab {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.videotitle {
+    width: 570px;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 30px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+}
+
+.videodiscriptab {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.videodiscrip {
+    width: 359px;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 100px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.youtubeplayer {
+    width: 1100px;
+    height: 464px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    top: 140px;
+    left: auto;
+    backdrop-filter: blur(25px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.mining {
+    width: 100%;
+    height: 820px;
+    background: url("../images/gpu.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.miningtitle {
+    width: 777px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+}
+
+.mininginfo {
+    width: 694px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+}
+
+.miningmaintab {
+    width: 1000px;
+    height: 616px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    backdrop-filter: blur(25px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.typesofmining {
+    width: 520px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.minertypes {
+    width: 790px;
+    height: 170px;
+    opacity: 1;
+    position: absolute;
+    top: 61px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.asictab {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.asicicon {
+    width: 60px;
+    height: 60px;
+    background: url("../images/asic.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.asicfonttab {
+    width: 101px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    overflow: hidden;
+}
+
+.asicfont1 {
+    width: 34px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 34px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.asicfont2 {
+    width: 101px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.rtx3060ti {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.rtx3060tilogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/gcard.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.rtx3060tifonttab {
+    width: 88px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 31px;
+    overflow: hidden;
+}
+
+.rtx3060tifont1 {
+    width: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.rtx3060tifont2 {
+    width: 88px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.rtx3070ti {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.rtx3070tilogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/gcard.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.rtx3070tifonttab {
+    width: 88px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 31px;
+    overflow: hidden;
+}
+
+.rtx3070tifont1 {
+    width: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.rtx3070tifont2 {
+    width: 88px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.rtx3080 {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 480px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.rtx3080logo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/gcard.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.rtx3080fonttab {
+    width: 74px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 38px;
+    overflow: hidden;
+}
+
+.rtx3080font1 {
+    width: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 22px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.rtx3080font2 {
+    width: 74px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.rtx3080ti {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 640px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.rtx3080tilogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/gcard.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.rtx3080tifonttab {
+    width: 88px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 31px;
+    overflow: hidden;
+}
+
+.rtx3080tifont1 {
+    width: 30px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.rtx3080tifont2 {
+    width: 88px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.minedby {
+    width: 458px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 241px;
+    left: 20px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.coinframe {
+    width: 790px;
+    height: 170px;
+    opacity: 1;
+    position: absolute;
+    top: 287px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.btc {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.btclogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/btc.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.btcfonttab {
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.btcfont1 {
+    width: 29px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.btcfont2 {
+    width: 60px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.ltc {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.ltclogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/ltc.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.ltcfonttab {
+    width: 67px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 41.5px;
+    overflow: hidden;
+}
+
+.ltcfont1 {
+    width: 26px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 20.5px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.ltcfont2 {
+    width: 67px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.bnb {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.bnblogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/bnb.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.bnbfonttab {
+    width: 105px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 22.5px;
+    overflow: hidden;
+}
+
+.bnbfont1 {
+    width: 31px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 37px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.bnbfont2 {
+    width: 105px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.matic {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 480px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.maticlogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/matic.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.maticfonttab {
+    width: 66px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 42px;
+    overflow: hidden;
+}
+
+.maticfont1 {
+    width: 46px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.maticfont2 {
+    width: 66px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.doge {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 640px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.dogelogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/doge.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.dogefonttab {
+    width: 75px;
+    height: 60px;
+    opacity: 1;
+    position: absolute;
+    top: 80px;
+    left: 37.5px;
+    overflow: hidden;
+}
+
+.dogefont1 {
+    width: 40px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 0px;
+    left: 17.5px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.dogefont2 {
+    width: 75px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.hashbought {
+    width: 249px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 467px;
+    left: 20px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.nicehash {
+    width: 300px;
+    height: 88px;
+    background: url("../images/nicehash.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 513px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.futurestrading {
+    width: 100%;
+    height: 900px;
+    background: url("../images/chart.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.futuretitletab {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.futuremainhead {
+    width: 628px;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 30px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+}
+
+.futurediscriptab1 {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.futurediscrip1 {
+    width: 868px;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 100px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.futurediscriptab2 {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.futurediscrip2 {
+    width: 868px;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 125px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.futuretab {
+    width: 900px;
+    height: 679px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    top: 170px;
+    left: auto;
+    backdrop-filter: blur(25px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.laptop {
+    width: 500px;
+    height: 267px;
+    background: url("../images/laptop.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    overflow: hidden;
+}
+
+.performedon {
+    width: 547px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 292px;
+    left: 176px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.pairtab {
+    width: 650px;
+    height: 170px;
+    opacity: 1;
+    position: absolute;
+    top: 338px;
+    left: 125px;
+    overflow: hidden;
+}
+
+.btcusdt {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.btcusdtlogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/btc.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.btcusdtfont {
+    width: 95px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 80px;
+    left: 28px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.ethusdt {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.ethusdtlogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/eth.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.ethusdtfont {
+    width: 95px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 80px;
+    left: 28px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.trxusdt {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.trxusdtlogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/trx.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.trxusdtfont {
+    width: 95px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 80px;
+    left: 28px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.bnbusdt {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 490px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.bnbusdtlogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/bnb.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.bnbusdtfont {
+    width: 95px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 80px;
+    left: 28px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.tradingperform {
+    width: 221px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 518px;
+    left: 339px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.binancelogo {
+    width: 350px;
+    height: 100px;
+    background: url("../images/binfut.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 564px;
+    left: 275px;
+    overflow: hidden;
+}
+
+.liquidity {
+    width: 100%;
+    height: 600px;
+    background: url("../images/tokenbg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.liquiditytitletab {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.liquiditymaintitle {
+    width: 517px;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 30px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+}
+
+.liqdiscriptab1 {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.liqdiscrip1 {
+    width: 826px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 100px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.liqdiscriptab2 {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.liqdiscrip2 {
+    width: 826px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 125px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.liqmaintab {
+    width: 900px;
+    height: 364px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    top: 170px;
+    left: auto;
+    backdrop-filter: blur(25px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+.activehead {
+    width: 431px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 15px;
+    left: 235px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.liqpairtab {
+    width: 650px;
+    height: 170px;
+    opacity: 1;
+    position: absolute;
+    top: 61px;
+    left: 125px;
+    overflow: hidden;
+}
+
+.cake {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.cakelogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/cake.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.cakefont {
+    width: 84px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 80px;
+    left: 33px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.brise {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.briselogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/brise.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.brisefont {
+    width: 84px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 80px;
+    left: 33px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.alpaca {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.alpacalogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/alpaca.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.alpacafont {
+    width: 98px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 80px;
+    left: 26px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.safemoon {
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05999999865889549);
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 490px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.safemoonlogo {
+    width: 60px;
+    height: 60px;
+    background: url("../images/sfm.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    overflow: hidden;
+}
+
+.safemoonfont {
+    width: 94px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 80px;
+    left: 28px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+    text-align: center;
+}
+
+.deployon {
+    width: 315px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 241px;
+    left: 293px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.pancake {
+    width: 400px;
+    height: 62px;
+    background: url("../images/pancakelogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 287px;
+    left: 250px;
+    overflow: hidden;
+}
+
+.contactus {
+    width: 100%;
+    height: 280px;
+    background: url("../images/contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.contactustitletab {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.contactusmainhead {
+    width: 181px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 30px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+}
+
+.contactusdistab1 {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.contactusdis1 {
+    width: 624px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 100px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.contactusdistab2 {
+    width: 100%;
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.contactusdis2 {
+    width: 624px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 125px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+}
+
+.socialmediatab {
+    width: 550px;
+    height: 80px;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.06);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    margin: auto;
+    top: 160px;
+    left: auto;
+    overflow: hidden;
+}
+
+.email {
+    width: 113px;
+    height: 60px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: auto;
+    overflow: hidden;
+}
+
+.emaillogo {
+    width: 40px;
+    height: 40px;
+    background: url("../images/email.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.emailfont {
+    width: 43px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 18px;
+    left: 60px;
+    padding: 3px 0;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.twitter {
+    width: 123px;
+    height: 60px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: auto;
+    overflow: hidden;
+}
+
+.twitterlogo {
+    width: 40px;
+    height: 40px;
+    background: url("../images/twitter.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.twitterfont {
+    width: 53px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 18px;
+    left: 60px;
+    padding: 3px 0;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.insta {
+    width: 139px;
+    height: 60px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: auto;
+    overflow: hidden;
+}
+
+.instalogo {
+    width: 40px;
+    height: 40px;
+    background: url("../images/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.instafont {
+    width: 69px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 18px;
+    left: 60px;
+    padding: 3px 0;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.youtube {
+    width: 125px;
+    height: 60px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: auto;
+    overflow: hidden;
+}
+
+.youtubelogo {
+    width: 40px;
+    height: 40px;
+    background: url("../images/youtube.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.youtubefont {
+    width: 55px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 18px;
+    left: 60px;
+    padding: 3px 0;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.text3tab {
+    width: 100%;
+    height: 100px;
+    background: url("../images/v203_5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: auto;
+    left: auto;
+    overflow: hidden;
+}
+
+.aboutustab {
+    width: 440px;
+    height: 114px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: auto;
+    overflow: hidden;
+}
+
+.aboutushead {
+    width: 88px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 10px;
+    left: 176px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.aboutusdis {
+    width: 420px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 56px;
+    left: 10px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.imptab {
+    width: 440px;
+    height: 114px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: auto;
+    overflow: hidden;
+}
+
+.imphead {
+    width: 160px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.impdis {
+    width: 297px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 56px;
+    left: 72px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+.socialtab {
+    width: 440px;
+    height: 106px;
+    opacity: 1;
+    position: relative;
+    top: 4px;
+    left: auto;
+    overflow: hidden;
+}
+
+.socialhead {
+    width: 125px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 10px;
+    left: 158px;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.socialbuttons {
+    width: 235px;
+    height: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 56px;
+    left: 103px;
+    overflow: hidden;
+}
+
+.emailbutton {
+    width: 40px;
+    height: 40px;
+    background: url("../images/email.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.tweetbutton {
+    width: 40px;
+    height: 40px;
+    background: url("../images/twitter.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 65px;
+    overflow: hidden;
+}
+
+.instabutton {
+    width: 40px;
+    height: 40px;
+    background: url("../images/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    overflow: hidden;
+}
+
+.youtubebutton {
+    width: 40px;
+    height: 40px;
+    background: url("../images/youtube.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 195px;
+    overflow: hidden;
+}
+
+.appby {
+    width: 409px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    top: 50px;
+    left: auto;
+    font-family: Bebas Neue;
+    font-weight: Regular;
+    font-size: 25px;
+    opacity: 1;
+}
+
+
+@media(max-width:700px) {
+    .titlenav {
+        width: 70%;
+        margin: 0;
+        overflow: visible;
+    }
+    .box3{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .mainhead {
+        font-size: 40px;
+        left: 45px;
+    }
+    .mainicon {
+        top: 8px;
+        left: -7px;
+        height: 36px;
+        width: 40px;
+    }
+    .download {
+        font-size: 30px;
+      }
+    
+      .howto {
+        font-size: 30px;
+      }
+    
+      .lsdtoken {
+        font-size: 30px;
+      }
+    
+      .contact {
+        font-size: 30px;
+      }
+      .nav{
+        
+      }
+      .intro{
+        height: 130vh;
+      }
+}
