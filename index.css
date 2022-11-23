@@ -618,64 +618,73 @@
 }
 
 .lsdtokentab {
-    width: 1260px;
-    height: 164px;
+    width: 97%;
+    height: 24vh;
     background: rgba(41, 39, 39, 1);
     opacity: 1;
-    position: absolute;
-    top: 553px;
-    left: 20px;
+    position: relative;
+    margin: 1rem;
+    /* top: 553px; */
+    /* left: 20px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .lsdtokenicon {
-    width: 70px;
+    width: 95px;
     height: 70px;
     background: url("../images/favicon.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 47px;
-    left: 30px;
+    position: relative;
+    /* top: 47px;
+    left: 30px; */
     overflow: hidden;
+    margin: 1.3rem;
 }
 
 .lsdnameframe {
-    width: 920px;
+    margin: 1rem;
+    width: 100%;
     height: 134px;
     opacity: 1;
-    position: absolute;
-    top: 15px;
-    left: 100px;
-    overflow: hidden;
+    display: flex;
+    position: relative;
+    /* top: 15px; */
+    /* left: 100px; */
+    /* overflow: hidden; */
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .lsdfullform {
     width: 265px;
     color: rgba(255, 255, 255, 1);
     padding: 5px 0;
-    position: absolute;
-    top: 31px;
-    left: 10px;
+    position: relative;
+    /* top: 31px;
+    left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 35px;
     opacity: 1;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .lsdinfo {
     width: 449px;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 73px;
-    left: 10px;
+    position: relative;
+    /* top: 73px;
+    left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
@@ -686,26 +695,33 @@
 .commingsoonbutton {
     width: 200px;
     height: 50px;
+    display: flex;
     background: rgba(79, 80, 79, 1);
     opacity: 1;
-    position: absolute;
-    top: 57px;
-    left: 1030px;
+    position: relative;
+    /* top: 57px; */
+    /* left: 1030px; */
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
+    margin: 1rem;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 }
 
 .commingsoon {
     width: 93px;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    padding: 3px 0;
-    top: 13px;
-    left: 53px;
+    position: relative;
+    padding: 1rem;
+    /* top: 13px;
+    left: 53px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -715,7 +731,7 @@
 
 .downloadsection {
     width: 100%;
-    height: 1100px;
+    height: 1200px;
     background: url("../images/curved.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -731,9 +747,10 @@
     width: 100%;
     height: 60px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    /* top: 0px; */
+    /* left: 0px; */
     opacity: 1;
+    margin: 1rem;
     text-align: center;
 }
 
@@ -766,15 +783,16 @@
 }
 
 .stilltab {
-    width: 1100px;
-    height: 478px;
-    background: rgba(255, 255, 255, 0.05999999865889549);
+    width: 80%;
+    height: 100%;
     opacity: 1;
     backdrop-filter: blur(25px);
     position: relative;
     margin: auto;
-    top: 55px;
-    left: auto;
+
+    top: 4rem;
+
+    /* left: auto; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -783,35 +801,39 @@
 }
 
 .stillwaiting {
-    width: 680px;
+    /* width: 100%; */
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 15px;
-    left: 210px;
+    position: relative;
+    /* top: 15px; */
+    /* left: 210px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
     opacity: 1;
+    /* display: flex; */
     text-align: center;
+    margin: 1rem;
 }
 
 .stilltabpart1 {
-    width: 920px;
+    width: 100%;
     height: 159px;
     opacity: 1;
-    position: absolute;
-    top: 55px;
-    left: 90px;
-    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .easywith {
     width: 300px;
     height: 139px;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 0px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -827,7 +849,7 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 120px;
     overflow: hidden;
@@ -873,9 +895,9 @@
     width: 300px;
     height: 139px;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 310px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 310px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -891,7 +913,7 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 120px;
     overflow: hidden;
@@ -937,9 +959,9 @@
     width: 300px;
     height: 139px;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 620px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 310px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -955,7 +977,7 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 120px;
     overflow: hidden;
@@ -998,22 +1020,42 @@
 }
 
 .stilltabpart2 {
-    width: 920px;
+    /* width: 920px;
     height: 159px;
     opacity: 1;
     position: absolute;
     top: 224px;
     left: 90px;
-    overflow: hidden;
+    overflow: hidden; */
+    width: 100%;
+    height: 159px;
+    opacity: 1;
+    position: relative;
+    margin: 1rem;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fixedlock {
-    width: 300px;
+    /* width: 300px;
     height: 139px;
     opacity: 1;
     position: absolute;
     top: 10px;
     left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden; */
+    width: 300px;
+    height: 139px;
+    opacity: 1;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -1075,9 +1117,9 @@
     width: 300px;
     height: 139px;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 310px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -1139,9 +1181,9 @@
     width: 300px;
     height: 139px;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 620px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -1200,13 +1242,18 @@
 }
 
 .downloadbuttontab {
-    width: 530px;
+    width: 100%;
     height: 70px;
     opacity: 1;
-    position: absolute;
-    top: 393px;
-    left: 285px;
-    overflow: hidden;
+    position: relative;
+    display: flex;
+    /* top: 393px; */
+    /* left: 285px; */
+    /* overflow: hidden; */
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
 
 .androidbutton {
@@ -1214,15 +1261,16 @@
     height: 50px;
     background: rgba(74, 134, 80, 1);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
+    margin: 1rem;
 }
 
 .androidicon {
@@ -1258,15 +1306,16 @@
     height: 50px;
     background: rgba(79, 80, 79, 1);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 270px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 270px; */
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
+    margin: 1rem;
 }
 
 .appleicon {
@@ -1299,15 +1348,15 @@
 
 .downloadvideo {
     width: 100%;
-    height: 650px;
-    background: url("../images/curved.png");
+    height: 95vh;
+    background: url(../images/curved.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
+    /* top: 0px; */
+    /* left: 0px; */
     overflow: hidden;
 }
 
@@ -1322,16 +1371,21 @@
 }
 
 .videotitle {
-    width: 570px;
+    width: 100%;
     height: 60px;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 30px;
-    left: auto;
+    /* top: 30px; */
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 50px;
     opacity: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
 
 .videodiscriptab {
@@ -3268,40 +3322,105 @@
         width: 70%;
         margin: 0;
         overflow: visible;
+        height: 25vh;
     }
-    .box3{
+
+    .box3 {
         flex-direction: column;
         height: fit-content;
     }
+
     .mainhead {
         font-size: 40px;
         left: 45px;
     }
+
     .mainicon {
         top: 8px;
         left: -7px;
         height: 36px;
         width: 40px;
     }
+
     .download {
+        font-size: 20px;
+    }
+
+    .howto {
+        font-size: 20px;
+    }
+
+    .lsdtoken {
+        font-size: 20px;
+    }
+
+    .contact {
+        font-size: 20px;
+    }
+
+    .nav {
+        width: 90%;
+    }
+
+    .intro {
+        height: 300vh;
+    }
+
+    .engagetab {
+        height: 88%;
+    }
+    .lsdnameframe{
+        display: contents;
+    }
+    .lsdfullform{
+        width: 100%;
         font-size: 30px;
-      }
-    
-      .howto {
+        text-align: center;
+    }
+    .lsdinfo{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .lsdtokentab {
+        top: 2rem;
+        height: fit-content;
+        flex-direction: column;
+    }
+    .lsdtokenicon{
+        width: 50px;
+        height: 48px;
+    }
+
+    .checkoutbsc {
         font-size: 30px;
-      }
-    
-      .lsdtoken {
-        font-size: 30px;
-      }
-    
-      .contact {
-        font-size: 30px;
-      }
-      .nav{
-        
-      }
-      .intro{
-        height: 130vh;
-      }
+    }
+
+    .downloadtitle {
+        font-size: 35px;
+    }
+
+    .stilltabpart1 {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .stilltabpart2 {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .downloadsection {
+        height: 280vh;
+    }
+
+    .downloadbuttontab {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .stilltab {
+        height: 65%;
+    }
+
 }
