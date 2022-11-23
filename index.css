@@ -784,7 +784,7 @@
 
 .stilltab {
     width: 80%;
-    height: 100%;
+    height: 45%;
     opacity: 1;
     backdrop-filter: blur(25px);
     position: relative;
@@ -1362,12 +1362,17 @@
 
 .videotitletab {
     width: 100%;
-    height: 0px;
+    /* height: 0px; */
     position: relative;
-    top: 0px;
-    left: 0px;
+    /* top: 0px; */
+    display: flex;
+    /* left: 0px; */
     opacity: 1;
     text-align: center;
+    flex-direction: column;
+    /* align-content: center; */
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .videotitle {
@@ -1375,7 +1380,7 @@
     height: 60px;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    /* top: 30px; */
+    top: 1rem;
     /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
@@ -1385,7 +1390,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 
 .videodiscriptab {
@@ -1399,27 +1404,30 @@
 }
 
 .videodiscrip {
-    width: 359px;
+    width: 100%;
     height: 60px;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 100px;
-    left: auto;
+    top: 1rem;
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
     opacity: 1;
+    /* margin: 2rem; */
 }
 
+
+
 .youtubeplayer {
-    width: 1100px;
+    width: 100%;
     height: 464px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
     position: relative;
-    margin: auto;
-    top: 140px;
-    left: auto;
+    /* margin: 1rem; */
+    /* top: 140px; */
+    /* left: auto; */
     backdrop-filter: blur(25px);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -1437,17 +1445,19 @@
     background-size: cover;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
     overflow: hidden;
 }
 
 .miningtitle {
-    width: 777px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 30px;
-    left: 50px;
+    /* top: 30px; */
+    /* left: 50px; */
+    /* margin: 3rem; */
+    margin-top:3rem ;
+    margin-left:3rem ;
+    display: flex;
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 50px;
@@ -1456,55 +1466,63 @@
 }
 
 .mininginfo {
-    width: 694px;
+    width: 50%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 100px;
-    left: 50px;
+    position: relative;
+    /* top: 100px; */
+    /* left: 50px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
     opacity: 1;
+    /* display: flex; */
     text-align: left;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
 }
 
 .miningmaintab {
-    width: 1000px;
+    width: 72%;
     height: 616px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 170px;
-    left: 50px;
+    position: relative;
+    /* top: 170px; */
+    /* left: 50px; */
+    /* right: 6rem; */
+    margin-left: 3rem;
     backdrop-filter: blur(25px);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
+
 }
 
 .typesofmining {
-    width: 520px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 15px;
-    left: 20px;
+    position: relative;
+    /* top: 15px; */
+    /* left: 20px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
+    margin-top: 1rem;
+    margin-left: 1rem;
     text-align: left;
 }
 
 .minertypes {
-    width: 790px;
-    height: 170px;
     opacity: 1;
-    position: absolute;
-    top: 61px;
-    left: 20px;
-    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .asictab {
@@ -1512,14 +1530,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 0px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .asicicon {
@@ -1577,14 +1596,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 160px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .rtx3060tilogo {
@@ -1642,14 +1662,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 320px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .rtx3070tilogo {
@@ -1707,14 +1728,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 480px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .rtx3080logo {
@@ -1772,14 +1794,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 640px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .rtx3080tilogo {
@@ -1833,26 +1856,28 @@
 }
 
 .minedby {
-    width: 458px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 241px;
-    left: 20px;
+    position: relative;
+    /* top: 15px; */
+    /* left: 20px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
+    margin-top: 1rem;
+    margin-left: 1rem;
     text-align: left;
 }
 
 .coinframe {
-    width: 790px;
-    height: 170px;
     opacity: 1;
-    position: absolute;
-    top: 287px;
-    left: 20px;
-    overflow: hidden;
+    position: relative;
+    margin: 1rem;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .btc {
@@ -1860,14 +1885,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 0px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .btclogo {
@@ -1925,14 +1951,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 160px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .ltclogo {
@@ -1990,14 +2017,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 320px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .bnblogo {
@@ -2055,14 +2083,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 480px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .maticlogo {
@@ -2120,14 +2149,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 640px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .dogelogo {
@@ -2181,29 +2211,31 @@
 }
 
 .hashbought {
-    width: 249px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 467px;
-    left: 20px;
+    position: relative;
+    /* top: 467px; */
+    /* left: 20px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
     text-align: left;
+    margin: 1rem;
 }
 
 .nicehash {
     width: 300px;
     height: 88px;
-    background: url("../images/nicehash.png");
+    background: url(../images/nicehash.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 513px;
-    left: 20px;
+    position: relative;
+    /* top: 513px; */
+    /* left: 20px; */
+    margin-left: 1rem;
     overflow: hidden;
 }
 
@@ -2349,14 +2381,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .btcusdtlogo {
@@ -2391,14 +2424,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 170px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .ethusdtlogo {
@@ -2433,14 +2467,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 330px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .trxusdtlogo {
@@ -2475,14 +2510,15 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 490px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 0px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
+    margin-right: 1rem;
 }
 
 .bnbusdtlogo {
@@ -3369,25 +3405,30 @@
     .engagetab {
         height: 88%;
     }
-    .lsdnameframe{
+
+    .lsdnameframe {
         display: contents;
     }
-    .lsdfullform{
+
+    .lsdfullform {
         width: 100%;
         font-size: 30px;
         text-align: center;
     }
-    .lsdinfo{
+
+    .lsdinfo {
         width: 100%;
         font-size: 20px;
         text-align: center;
     }
+
     .lsdtokentab {
         top: 2rem;
         height: fit-content;
         flex-direction: column;
     }
-    .lsdtokenicon{
+
+    .lsdtokenicon {
         width: 50px;
         height: 48px;
     }
@@ -3423,4 +3464,98 @@
         height: 65%;
     }
 
+    .videotitle {
+        font-size: 35px;
+    }
+
+    .videodiscrip {
+        font-size: 20px;
+        top: 2rem;
+    }
+
+    .youtubeplayer {
+        width: 100%;
+        height: 50%;
+        margin-top: 2rem;
+
+    }
+    .mining{
+        height: 352vh;
+    }
+    .miningtitle{
+        width: fit-content;
+        font-size: 35px;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .mininginfo{
+        width: fit-content;
+        font-size: 20px;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .miningmaintab{
+        height: fit-content;
+    }
+    .asictab{
+        margin-bottom: 1rem;
+    }
+    .rtx3060ti{
+        margin-bottom: 1rem;
+    }
+    .rtx3070ti{
+        margin-bottom: 1rem;
+        
+    }
+    .rtx3080{
+        margin-bottom: 1rem;
+        
+    }
+    .rtx3080ti{
+        margin-bottom: 1rem;
+        
+    }
+    .btc{
+        margin-bottom: 1rem;
+        
+    }
+    .ltc{
+        margin-bottom: 1rem;
+        
+    }
+    .bnb{
+        margin-bottom: 1rem;
+        
+    }
+    .matic{
+        margin-bottom: 1rem;
+        
+    }
+    .doge{
+        margin-bottom: 1rem;
+
+    }
+
+    .minertypes{flex-direction:column;}
+    .coinframe{flex-direction: column;}
+    .hashbought{
+        font-size: 25px;
+    }
+    .nicehash{
+        width: 170px;
+        height: 55px;
+        margin-bottom: 1rem;
+    }
+    .typesofmining{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    .minedby{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
 }
