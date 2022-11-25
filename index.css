@@ -15,6 +15,7 @@
     /* top: 0px;
     left: 0px; */
     overflow: hidden;
+    
 }
 
 .titlenav {
@@ -144,17 +145,22 @@
     height: 737px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
+    display: flex;
     position: relative;
     margin: auto;
-    top: auto;
-    left: auto;
+    /* top: auto; */
+    /* left: auto; */
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     backdrop-filter: blur(25px);
     overflow: hidden;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
+
 
 .engagetitle {
     width: 100%;
@@ -184,10 +190,12 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .hash {
-    width: 406px;
+    width: 100%;
     height: 384px;
     background: rgba(41, 39, 39, 1);
     opacity: 1;
@@ -201,6 +209,9 @@
     box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
     margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hashicon {
@@ -211,17 +222,16 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 15px;
-    left: 168px;
+    position: relative;
     overflow: hidden;
+    margin-bottom: 1rem;
 }
 
 .hashheading {
     width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 95px;
+    /* top: 95px; */
     /* left: 126px; */
     /* display: flex; */
     font-family: Bebas Neue;
@@ -229,38 +239,43 @@
     font-size: 25px;
     opacity: 1;
     text-align: center;
+    margin: 0.5rem 0;
 }
 
 .hashdiscrip {
-    width: 376px;
+    width: 95%;
+    display: flex;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 135px;
-    left: 15px;
+    position: relative;
+    /* top: 135px; */
+    /* left: 15px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
     text-align: center;
+
+    justify-content: center;
 }
 
 .hashgenre {
-    width: 376px;
+    width: 100%;
     height: 92px;
-    padding: 10px 10px;
+    padding: 0px 10px;
+    padding-top: 1rem;
     opacity: 1;
-    position: absolute;
-    top: 217px;
-    left: 15px;
+    position: relative;
+    /* top: 217px; */
+    /* left: 15px; */
     overflow: hidden;
 }
 
 .hg1 {
-    width: 356px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -269,11 +284,11 @@
 }
 
 .hg2 {
-    width: 356px;
+    width: 100%;
     color: rgba(36, 131, 45, 1);
-    position: absolute;
-    top: 34px;
-    left: 10px;
+    position: relative;
+    /* top: 34px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -282,11 +297,11 @@
 }
 
 .hg3 {
-    width: 356px;
+    width: 100%;
     color: rgba(36, 131, 45, 1);
-    position: absolute;
-    top: 58px;
-    left: 10px;
+    position: relative;
+    /* top: 34px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -295,44 +310,46 @@
 }
 
 .hashlearn {
-    width: 376px;
+    width: 93%;
     height: 50px;
     background: rgba(73, 133, 79, 1);
-    margin: auto;
     opacity: 1;
-    position: absolute;
-    top: 319px;
-    left: 15px;
+    position: relative;
+    /* top: 319px; */
+    /* left: 15px; */
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
 }
 
 .learnmore1 {
-    width: 77px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    padding: 3px 0;
-    top: 13px;
-    left: 149px;
+    position: relative;
+    padding: 0.8rem 0;
+    /* top: 13px; */
+    display: flex;
+    /* left: 149px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
     text-align: center;
+    /* align-content: center; */
+    justify-content: center;
 }
 
 .trading {
-    width: 406px;
+    width: 100%;
     height: 384px;
     background: rgba(41, 39, 39, 1);
     opacity: 1;
     position: relative;
     /* top: 10px; */
-    /* left: 426px; */
+    /* left: 10px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -340,6 +357,10 @@
     box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
     margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .tradingicon {
@@ -350,17 +371,16 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 15px;
-    left: 168px;
+    position: relative;
     overflow: hidden;
+    margin-bottom: 1rem;
 }
 
 .tradingheading {
     width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 95px;
+    /* top: 95px; */
     /* left: 126px; */
     /* display: flex; */
     font-family: Bebas Neue;
@@ -368,38 +388,40 @@
     font-size: 25px;
     opacity: 1;
     text-align: center;
+    margin: 0.5rem 0;
 }
 
 .tradingdiscrip {
-    width: 376px;
+    width: 95%;
+    display: flex;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 135px;
-    left: 15px;
+    position: relative;
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
     text-align: center;
+    justify-content: center;
 }
 
 .tradinggenre {
-    width: 376px;
+    width: 100%;
     height: 92px;
-    padding: 10px 10px;
+    padding: 0px 10px;
+    padding-top: 1rem;
     opacity: 1;
-    position: absolute;
-    top: 217px;
-    left: 15px;
+    position: relative;
+    /* top: 217px; */
+    /* left: 15px; */
     overflow: hidden;
 }
 
 .tg1 {
-    width: 356px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -408,11 +430,11 @@
 }
 
 .tg2 {
-    width: 356px;
+    width: 100%;
     color: rgba(36, 131, 45, 1);
-    position: absolute;
-    top: 34px;
-    left: 10px;
+    position: relative;
+    /* top: 34px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -421,11 +443,11 @@
 }
 
 .tg3 {
-    width: 356px;
+    width: 100%;
     color: rgba(214, 186, 42, 1);
-    position: absolute;
-    top: 58px;
-    left: 10px;
+    position: relative;
+    /* top: 34px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -434,51 +456,56 @@
 }
 
 .tradinglearn {
-    width: 376px;
+    width: 93%;
     height: 50px;
     background: rgba(73, 133, 79, 1);
-    margin: auto;
     opacity: 1;
-    position: absolute;
-    top: 319px;
-    left: 15px;
+    position: relative;
+    /* top: 319px; */
+    /* left: 15px; */
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
 }
 
 .learnmore2 {
-    width: 77px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    padding: 3px 0;
-    top: 13px;
-    left: 149px;
+    position: relative;
+    padding: 0.8rem 0;
+    /* top: 13px; */
+    display: flex;
+    /* left: 149px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
     text-align: center;
+    /* align-content: center; */
+    justify-content: center;
 }
 
 .tokenmania {
-    width: 406px;
+    width: 100%;
     height: 384px;
-    background: rgba(41, 40, 40, 1);
+    background: rgba(41, 39, 39, 1);
     opacity: 1;
     position: relative;
-    /* top: 10px;
-    left: 843px; */
+    /* top: 10px; */
+    /* left: 10px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
     margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tokenicon {
@@ -489,17 +516,16 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 15px;
-    left: 168px;
+    position: relative;
     overflow: hidden;
+    margin-bottom: 1rem;
 }
 
 .tokenmaniaheading {
     width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 95px;
+    /* top: 95px; */
     /* left: 126px; */
     /* display: flex; */
     font-family: Bebas Neue;
@@ -507,38 +533,42 @@
     font-size: 25px;
     opacity: 1;
     text-align: center;
+    margin: 0.5rem 0;
 }
 
 .tokenmaniadiscrip {
-    width: 376px;
+    width: 95%;
+    display: flex;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 135px;
-    left: 15px;
+    position: relative;
+    /* top: 135px; */
+    /* left: 15px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
     text-align: center;
+    justify-content: center;
 }
 
 .tokenmaniagenre {
-    width: 376px;
+    width: 100%;
     height: 92px;
-    padding: 10px 10px;
+    padding: 0px 10px;
+    padding-top: 1rem;
     opacity: 1;
-    position: absolute;
-    top: 217px;
-    left: 15px;
+    position: relative;
+    /* top: 217px; */
+    /* left: 15px; */
     overflow: hidden;
 }
 
 .tog1 {
-    width: 356px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -547,11 +577,11 @@
 }
 
 .tog2 {
-    width: 356px;
+    width: 100%;
     color: rgba(36, 131, 45, 1);
-    position: absolute;
-    top: 34px;
-    left: 10px;
+    position: relative;
+    /* top: 34px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -560,11 +590,11 @@
 }
 
 .tog3 {
-    width: 356px;
+    width: 100%;
     color: rgba(214, 186, 42, 1);
-    position: absolute;
-    top: 58px;
-    left: 10px;
+    position: relative;
+    /* top: 34px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -573,35 +603,36 @@
 }
 
 .tokenlearn {
-    width: 376px;
+    width: 93%;
     height: 50px;
     background: rgba(73, 133, 79, 1);
-    margin: auto;
     opacity: 1;
-    align-self: center;
-    position: absolute;
-    top: 319px;
-    left: 15px;
+    position: relative;
+    /* top: 319px; */
+    /* left: 15px; */
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     overflow: hidden;
 }
 
 .learnmore3 {
-    width: 77px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    padding: 3px 0;
-    top: 13px;
-    left: 149px;
+    position: relative;
+    padding: 0.8rem 0;
+    /* top: 13px; */
+    display: flex;
+    /* left: 149px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
     text-align: center;
+    /* align-content: center; */
+    justify-content: center;
 }
 
 .checkoutbsc {
@@ -789,15 +820,16 @@
     backdrop-filter: blur(25px);
     position: relative;
     margin: auto;
-
     top: 4rem;
-
-    /* left: auto; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .stillwaiting {
@@ -1455,8 +1487,8 @@
     /* top: 30px; */
     /* left: 50px; */
     /* margin: 3rem; */
-    margin-top:3rem ;
-    margin-left:3rem ;
+    margin-top: 3rem;
+    margin-left: 3rem;
     display: flex;
     font-family: Bebas Neue;
     font-weight: Regular;
@@ -1483,7 +1515,7 @@
 
 .miningmaintab {
     width: 72%;
-    height:  592px;
+    height: 592px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
     position: relative;
@@ -2248,9 +2280,10 @@
     background-size: cover;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .futuretitletab {
@@ -2334,7 +2367,6 @@
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
     position: relative;
-    margin: auto;
     top: 170px;
     /* left: auto; */
     backdrop-filter: blur(25px);
@@ -2343,13 +2375,15 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px
 }
-.size{
+
+.size {
     display: flex;
     width: 100%;
     top: 1rem;
     position: relative;
     justify-content: center;
 }
+
 .laptop {
     width: 500px;
     height: 267px;
@@ -2592,6 +2626,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: black;
     opacity: 1;
     position: relative;
     top: 0px;
@@ -2610,12 +2645,12 @@
 }
 
 .liquiditymaintitle {
-    width: 517px;
-    height: 60px;
+    width: 100%;
+    /* height: 60px; */
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 30px;
-    left: auto;
+    top: 1rem;
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 50px;
@@ -2626,18 +2661,20 @@
     width: 100%;
     height: 0px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    /* top: 0px; */
+    /* left: 0px; */
     opacity: 1;
+    display: flex;
+    margin-top: 5rem;
     text-align: center;
 }
 
 .liqdiscrip1 {
-    width: 826px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 100px;
-    left: auto;
+    /* top: 100px; */
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
@@ -2648,18 +2685,21 @@
     width: 100%;
     height: 0px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    /* top: 0px; */
+    display: flex;
+    /* left: 0px; */
     opacity: 1;
+    margin-top: 2rem;
     text-align: center;
+    justify-content: center;
 }
 
 .liqdiscrip2 {
-    width: 826px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 125px;
-    left: auto;
+    /* top: 125px; */
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
@@ -2667,14 +2707,15 @@
 }
 
 .liqmaintab {
-    width: 900px;
+    width: 66%;
     height: 364px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
     position: relative;
     margin: auto;
-    top: 170px;
-    left: auto;
+    margin-top: 3rem;
+    /* top: 170px; */
+    /* left: auto; */
     backdrop-filter: blur(25px);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -2684,26 +2725,34 @@
 }
 
 .activehead {
-    width: 431px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 15px;
-    left: 235px;
+    position: relative;
+    /* top: 15px; */
+    /* left: 235px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
-    text-align: left;
+    display: flex;
+    /* text-align: left; */
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .liqpairtab {
-    width: 650px;
+    width: 100%;
     height: 170px;
+    position: relative;
     opacity: 1;
-    position: absolute;
-    top: 61px;
-    left: 125px;
+    /* top: 61px; */
+    display: flex;
+    /* left: 125px; */
     overflow: hidden;
+    justify-content: center;
+    margin-top: 1rem;
+    align-items: center;
+
 }
 
 .cake {
@@ -2711,9 +2760,10 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    margin-right: 1rem;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -2753,9 +2803,10 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 170px;
+    margin-right: 1rem;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -2795,9 +2846,10 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 330px;
+    margin-right: 1rem;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -2837,9 +2889,10 @@
     height: 150px;
     background: rgba(255, 255, 255, 0.05999999865889549);
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 490px;
+    margin-right: 1rem;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -2875,29 +2928,29 @@
 }
 
 .deployon {
-    width: 315px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 241px;
-    left: 293px;
+    position: relative;
+    /* top: 241px; */
+    /* left: 293px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .pancake {
     width: 400px;
     height: 62px;
-    background: url("../images/pancakelogo.png");
+    background: url(../images/pancakelogo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 287px;
-    left: 250px;
+    position: relative;
+    /* top: 287px; */
+    /* left: 250px; */
     overflow: hidden;
 }
 
@@ -2929,16 +2982,17 @@
 }
 
 .contactusmainhead {
-    width: 181px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 30px;
-    left: auto;
+    /* top: 30px; */
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 50px;
     opacity: 1;
-    text-align: left;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 .contactusdistab1 {
@@ -2952,15 +3006,16 @@
 }
 
 .contactusdis1 {
-    width: 624px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 100px;
-    left: auto;
+    /* top: 100px; */
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
     opacity: 1;
+    top: 4rem;
 }
 
 .contactusdistab2 {
@@ -2974,19 +3029,22 @@
 }
 
 .contactusdis2 {
-    width: 624px;
+
+    width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 125px;
-    left: auto;
+    /* top: 125px; */
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
     opacity: 1;
+    top: 6rem;
+
 }
 
 .socialmediatab {
-    width: 550px;
+    width: 44%;
     height: 80px;
     opacity: 1;
     background: rgba(255, 255, 255, 0.06);
@@ -2998,19 +3056,24 @@
     border-radius: 10px;
     backdrop-filter: blur(25px);
     margin: auto;
-    top: 160px;
+    padding-right: 1rem;
+    top: 9rem;
     left: auto;
     overflow: hidden;
 }
 
 .email {
-    width: 113px;
+    width: 100%;
     height: 60px;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: auto;
+    /* top: 0px; */
+    /* left: auto; */
+    display: flex;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .emaillogo {
@@ -3021,72 +3084,82 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px;
+    left: 10px; */
     overflow: hidden;
+    margin: 1rem;
 }
 
 .emailfont {
-    width: 43px;
+    /* width: 43px; */
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 18px;
-    left: 60px;
+    position: relative;
+    /* top: 18px; */
+    /* left: 60px; */
     padding: 3px 0;
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .twitter {
-    width: 123px;
+    width: 100%;
     height: 60px;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: auto;
+    /* top: 0px; */
+    /* left: auto; */
+    display: flex;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .twitterlogo {
     width: 40px;
     height: 40px;
-    background: url("../images/twitter.png");
+    background: url(../images/twitter.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 10px; */
     overflow: hidden;
+    margin: 1rem;
 }
 
 .twitterfont {
-    width: 53px;
+    /* width: 53px; */
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 18px;
-    left: 60px;
+    position: relative;
+    /* top: 18px; */
+    /* left: 60px; */
     padding: 3px 0;
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .insta {
-    width: 139px;
+    width: 100%;
     height: 60px;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: auto;
+    /* top: 0px; */
+    /* left: auto; */
+    display: flex;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .instalogo {
@@ -3097,34 +3170,39 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px;
+    left: 10px; */
     overflow: hidden;
+    margin: 1rem;
 }
 
 .instafont {
-    width: 69px;
+    /* width: 69px; */
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 18px;
-    left: 60px;
+    position: relative;
+    /* top: 18px; */
+    /* left: 60px; */
     padding: 3px 0;
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .youtube {
-    width: 125px;
+    width: 100%;
     height: 60px;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: auto;
+    /* top: 0px; */
+    /* left: auto; */
+    display: flex;
     overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .youtubelogo {
@@ -3135,24 +3213,25 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    position: relative;
+    /* top: 10px;
+    left: 10px; */
     overflow: hidden;
+    margin: 1rem;
 }
 
 .youtubefont {
-    width: 55px;
+    /* width: 55px; */
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 18px;
-    left: 60px;
+    position: relative;
+    /* top: 18px; */
+    /* left: 60px; */
     padding: 3px 0;
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .footer {
@@ -3165,9 +3244,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 0px;
+    /* top: 0px;
     left: 0px;
-    overflow: hidden;
+    overflow: hidden; */
     text-align: center;
 }
 
@@ -3190,34 +3269,39 @@
 }
 
 .aboutustab {
-    width: 440px;
+    width: 100%;
+    display: flex;
     height: 114px;
     opacity: 1;
+    margin: 1rem;
     position: relative;
-    top: 0px;
-    left: auto;
+    /* top: 0px; */
+    /* left: auto; */
     overflow: hidden;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .aboutushead {
-    width: 88px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 10px;
-    left: 176px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 176px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .aboutusdis {
-    width: 420px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 56px;
-    left: 10px;
+    position: relative;
+    /* top: 56px; */
+    /* left: 10px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -3226,34 +3310,37 @@
 }
 
 .imptab {
-    width: 440px;
+    width: 100%;
     height: 114px;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: auto;
+    display: flex;
+    /* left: auto; */
+    margin: 1rem;
     overflow: hidden;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .imphead {
-    width: 160px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 10px;
-    left: 140px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 140px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .impdis {
-    width: 297px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 56px;
-    left: 72px;
+    position: relative;
+    /* top: 56px; */
+    /* left: 72px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 20px;
@@ -3262,36 +3349,44 @@
 }
 
 .socialtab {
-    width: 440px;
+    width: 100%;
     height: 106px;
     opacity: 1;
     position: relative;
-    top: 4px;
-    left: auto;
+    display: flex;
+    /* top: 4px; */
+    /* left: auto; */
     overflow: hidden;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 1rem;
 }
 
+
 .socialhead {
-    width: 125px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 10px;
-    left: 158px;
+    position: relative;
+    /* top: 10px; */
+    /* left: 158px; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 30px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .socialbuttons {
-    width: 235px;
+    width: 100%;
     height: 40px;
     opacity: 1;
-    position: absolute;
-    top: 56px;
-    left: 103px;
+    position: relative;
+    display: flex;
+    /* top: 56px; */
+    /* left: 103px; */
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
 .emailbutton {
@@ -3302,9 +3397,10 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
+    margin: 1rem;
+    /* position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; */
     overflow: hidden;
 }
 
@@ -3316,9 +3412,10 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
+    margin: 1rem;
+    /* position: absolute;
     top: 0px;
-    left: 65px;
+    left: 65px; */
     overflow: hidden;
 }
 
@@ -3330,9 +3427,10 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
+    margin: 1rem;
+    /* position: absolute;
     top: 0px;
-    left: 130px;
+    left: 130px; */
     overflow: hidden;
 }
 
@@ -3344,22 +3442,28 @@
     background-position: center center;
     background-size: cover;
     opacity: 1;
-    position: absolute;
+    margin: 1rem;
+    /* position: absolute;
     top: 0px;
-    left: 195px;
+    left: 195px; */
     overflow: hidden;
 }
 
 .appby {
-    width: 409px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
     position: relative;
-    top: 50px;
-    left: auto;
+    display: flex;
+    /* top: 50px; */
+    /* left: auto; */
     font-family: Bebas Neue;
     font-weight: Regular;
     font-size: 25px;
     opacity: 1;
+    /* align-content: center; */
+    justify-content: center;
+    /* margin-top: 8rem; */
+    padding-top: 4rem;
 }
 
 
@@ -3374,6 +3478,21 @@
     .box3 {
         flex-direction: column;
         height: fit-content;
+    }
+
+    .hash {
+        width: 90%;
+
+    }
+
+    .tokenmania {
+        width: 90%;
+        height: 410px;
+    }
+
+    .trading {
+        width: 90%;
+        height: 410px;
     }
 
     .mainhead {
@@ -3427,7 +3546,7 @@
     }
 
     .lsdinfo {
-        width: 100%;
+        width: 95%;
         font-size: 20px;
         text-align: center;
     }
@@ -3436,6 +3555,7 @@
         top: 2rem;
         height: fit-content;
         flex-direction: column;
+        width: 85%;
     }
 
     .lsdtokenicon {
@@ -3489,142 +3609,353 @@
         margin-top: 2rem;
 
     }
-    .mining{
+
+    .mining {
         height: 352vh;
     }
-    .miningtitle{
+
+    .miningtitle {
         width: fit-content;
         font-size: 35px;
         margin-top: 2rem;
         margin-left: 2rem;
     }
-    .mininginfo{
+
+    .mininginfo {
         width: fit-content;
         font-size: 20px;
         margin-top: 2rem;
         margin-left: 2rem;
     }
-    .miningmaintab{
+
+    .miningmaintab {
         height: fit-content;
     }
-    .asictab{
+
+    .asictab {
+        margin-right: 0;
         margin-bottom: 1rem;
     }
-    .rtx3060ti{
+
+    .rtx3060ti {
+        margin-right: 0;
         margin-bottom: 1rem;
     }
-    .rtx3070ti{
-        margin-bottom: 1rem;
-        
-    }
-    .rtx3080{
-        margin-bottom: 1rem;
-        
-    }
-    .rtx3080ti{
-        margin-bottom: 1rem;
-        
-    }
-    .btc{
-        margin-bottom: 1rem;
-        
-    }
-    .ltc{
-        margin-bottom: 1rem;
-        
-    }
-    .bnb{
-        margin-bottom: 1rem;
-        
-    }
-    .matic{
-        margin-bottom: 1rem;
-        
-    }
-    .doge{
+
+    .rtx3070ti {
+        margin-right: 0;
         margin-bottom: 1rem;
 
     }
 
-    .minertypes{flex-direction:column;}
-    .coinframe{flex-direction: column;}
-    .hashbought{
+    .rtx3080 {
+        margin-right: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .rtx3080ti {
+        margin-right: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .btc {
+        margin-right: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .ltc {
+        margin-right: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .bnb {
+        margin-right: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .matic {
+        margin-right: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .doge {
+        margin-right: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .minertypes {
+        flex-direction: column;
+    }
+
+    .coinframe {
+        flex-direction: column;
+    }
+
+    .hashbought {
         font-size: 25px;
     }
-    .nicehash{
+
+    .nicehash {
         width: 170px;
         height: 55px;
         margin-bottom: 1rem;
     }
-    .typesofmining{
+
+    .typesofmining {
         text-align: center;
         font-size: 25px;
         margin-top: 1rem;
         margin-left: 0;
     }
-    .minedby{
+
+    .minedby {
         text-align: center;
         font-size: 25px;
         margin-top: 1rem;
         margin-left: 0;
     }
-    .futuremainhead{
+
+    .futuremainhead {
         width: 100%;
-    font-size: 35px;
-    top: 0;
+        font-size: 35px;
+        top: 0;
     }
-    .futurestrading{
+
+    .futurestrading {
         height: 215vh;
     }
-    .futuretab{
+
+    .futuretab {
         top: 20rem;
-       
-    height: 157vh;
+
+        height: 157vh;
 
     }
-    .futurediscrip1{
-font-size: 20px;
-}
-.futurediscrip2{
-    top: 11rem;
-    font-size: 20px;
+
+    .futurediscrip1 {
+        font-size: 20px;
     }
-    .laptop{
+
+    .futurediscrip2 {
+        top: 11rem;
+        font-size: 20px;
+    }
+
+    .laptop {
         width: 253px;
         height: 150px;
     }
-    .performedon{
+
+    .performedon {
         font-size: 25px;
     }
-    .pairtab{
+
+    .pairtab {
         flex-direction: column;
         height: fit-content;
     }
 
-    .btcusdt{
+    .btcusdt {
         margin-bottom: 1rem;
         margin-right: 0;
-    }
-    
-    .ethusdt{
-        margin-bottom: 1rem;
-        margin-right: 0;
-    }
-    .trxusdt{
-        margin-bottom: 1rem;
-        margin-right: 0;
-    }
-    .bnbusdt{
-        margin-bottom: 1rem;
-        margin-right: 0;
-    }
-    .tradingperform{
     }
 
-    .binancelogo{
-        
-    width: 200px;
-    height: 50px;
+    .ethusdt {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+
+    .trxusdt {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+
+    .bnbusdt {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+
+    .tradingperform {}
+
+    .binancelogo {
+        width: 200px;
+        height: 50px;
+    }
+
+    .liquiditymaintitle {
+        font-size: 35px;
+    }
+
+    .liquidity {
+        height: 180vh;
 
     }
+
+    .liqdiscrip1 {
+        font-size: 20px;
+    }
+
+    .liqdiscrip2 {
+       width: 90%;
+        font-size: 20px;
+    }
+
+    .liqdiscriptab2 {
+        height: fit-content;
+    }
+
+    .activehead {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .liqpairtab {
+        height: fit-content;
+      flex-direction: column;
+    }
+
+    .liqmaintab {
+        height: 140vh;
+    }
+
+    .deployon {
+        font-size: 25px;
+    }
+
+    .pancake {
+        width: 200px;
+        height: 31px;
+    }
+
+    .cake {
+
+        margin-bottom: 1rem;
+
+    }
+
+    .brise {
+
+
+        margin-bottom: 1rem;
+
+    }
+
+    .alpaca {
+
+        margin-bottom: 1rem;
+
+    }
+
+    .safemoon {
+
+
+        margin-bottom: 1rem;
+
+    }
+
+    .contactusmainhead {
+        font-size: 35px;
+    }
+
+    .contactusdis1 {
+        font-size: 20px;
+
+    }
+
+    .contactusdis2 {
+        margin-top: 2rem;
+        font-size: 20px;
+    }
+
+    .contactus {
+        height: 80vh;
+    }
+
+
+    .socialmediatab {
+
+        flex-direction: column;
+        height: fit-content;
+        padding: 0;
+
+    }
+
+    .emaillogo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .twitterlogo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .instalogo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .youtubelogo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .emailfont {
+        font-size: 17px;
+        letter-spacing: 1px;
+        position: relative;
+    }
+
+    .twitterfont {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .instafont {
+
+        font-size: 17px;
+        letter-spacing: 1px;
+
+    }
+
+    .youtubefont {
+
+        font-size: 17px;
+        letter-spacing: 1px;
+
+    }
+
+    .footer {
+        height: fit-content;
+    }
+
+    .text3tab {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .appby {
+        margin-bottom: 4rem;
+        padding-top: 1rem;
+        font-size: 20px;
+    }
+
+    .futurediscriptab2{
+        width: 90%;
+    }
+    .futurediscriptab1{
+        width: 90%;
+    }
+
+    .videotitletab{
+        margin-top: 4rem;
+    }
+
 }
