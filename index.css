@@ -3467,7 +3467,7 @@
 }
 
 
-@media(max-width:700px) {
+@media(max-width:768px) {
     .titlenav {
         width: 70%;
         margin: 0;
