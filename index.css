@@ -3528,11 +3528,13 @@
     }
 
     .intro {
-        height: 300vh;
+        height: fit-content;
+        padding-bottom: 3rem;
     }
 
     .engagetab {
-        height: 88%;
+        height: fit-content;
+        padding-bottom: 3rem;
     }
 
     .lsdnameframe {
@@ -3582,7 +3584,8 @@
     }
 
     .downloadsection {
-        height: 280vh;
+        height: fit-content;
+        padding-bottom: 8rem;
     }
 
     .downloadbuttontab {
@@ -3591,7 +3594,8 @@
     }
 
     .stilltab {
-        height: 65%;
+        height: fit-content;
+        padding: 3rem 0;
     }
 
     .videotitle {
@@ -3611,7 +3615,8 @@
     }
 
     .mining {
-        height: 352vh;
+        height: fit-content;
+        padding-bottom: 5rem;
     }
 
     .miningtitle {
@@ -3729,14 +3734,14 @@
     }
 
     .futurestrading {
-        height: 215vh;
+        height: fit-content;
+        padding-bottom: 24rem;
     }
 
     .futuretab {
         top: 20rem;
-
-        height: 157vh;
-
+        height: fit-content;
+        padding-bottom: 4rem;
     }
 
     .futurediscrip1 {
@@ -3794,8 +3799,8 @@
     }
 
     .liquidity {
-        height: 180vh;
-
+        height: fit-content;
+        padding-bottom: 4rem;
     }
 
     .liqdiscrip1 {
@@ -3822,7 +3827,8 @@
     }
 
     .liqmaintab {
-        height: 140vh;
+        height: fit-content;
+        padding-bottom: 4rem;
     }
 
     .deployon {
