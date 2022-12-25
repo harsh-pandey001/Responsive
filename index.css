@@ -3499,7 +3499,10 @@
         font-size: 40px;
         left: 45px;
     }
-
+.downloadtitletab{
+    margin: auto;
+    margin-bottom: 2rem;
+}
     .mainicon {
         top: 8px;
         left: -7px;
@@ -3635,6 +3638,7 @@
 
     .miningmaintab {
         height: fit-content;
+        margin: auto;
     }
 
     .asictab {
@@ -3881,7 +3885,8 @@
     }
 
     .contactus {
-        height: 80vh;
+        height: fit-content;
+        padding-bottom: 30rem;
     }
 
 
